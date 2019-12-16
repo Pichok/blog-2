@@ -12,11 +12,3 @@ collections:
     create: true
     fields:
       - { name: title, label: Title }
-      - { name: date, label: Date, widget: datetime }
-      - { name: layout, label: Layout }
-      - { name: draft, label: Draft, widget: boolean }
-      - { name: path, label: Path }
-      - { name: category, label: Category, widget: select, options: ["Design", "UX", "Dev"] }
-      - { name: tags, label: Tags, widget: select, multiple: true, options: ["Design", "UX", "Dev"] }
-      - { name: description, label: Description }
-      - { name: body, label: Body, widget: markdown }
